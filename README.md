@@ -31,3 +31,16 @@ syncDataLayer(window.dataLayer, function(e) {
 ```
 
 A demo is available in ```index.html``` file on this project, you just have to look on the console for empty ```_mtm```, click the button to push event and data, and see the magic !
+
+## Optional : Completely remove Google Tag Manager
+In some cases, you want to keep the dataLayer but completely remove the Google Tag Manager tracking code. You can remove the code, but you must keep the initialization of ```dataLayer```.
+
+Replace the Google Tag Manager code with this simple initialization code.
+
+```html
+<script>
+ // Initialize GTM dataLayer to keep dataLayer working 
+ window.dataLayer = window.dataLayer || [];
+</script>
+```
+
