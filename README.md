@@ -28,7 +28,7 @@ let syncDataLayer = function(array, callback) {
 };
 
 syncDataLayer(window.dataLayer, function(e) {
-    window._mtm.push(dataLayer.at(-1))
+    window._mtm.push(window.dataLayer[window.dataLayer.length-1]);
 });
 </script>
 ```
