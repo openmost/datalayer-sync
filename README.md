@@ -4,7 +4,7 @@
 > [!IMPORTANT]
 > This code is now part of Matomo 5.2.0 and above ! 🥳
 >
-> If you want to enable this function in your container, edit your container and activate "Actively synchronise from the Google Tag Manager data layer".
+> If you want to enable this feature in your container, edit your container and activate "Actively synchronise from the Google Tag Manager data layer".
 
 ## The problem (only for Matomo < 5.2.0)
 Many websites have both Google Tag Manager and Matomo Tag Manager implemented on their source code.
