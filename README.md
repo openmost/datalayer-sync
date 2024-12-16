@@ -1,6 +1,12 @@
 ﻿# Synchronize Google Tag Manager and Matomo data layers (```dataLayer``` and ```_mtm```)
 
-## The problem
+
+> [!IMPORTANT]
+> This code is now part of Matomo 5.2.0 and above ! 🥳
+>
+> If you want to enable this function in your container, edit your container and activate "Actively syncronise from the Google Tag Manager data layer".
+
+## The problem (only for Matomo < 5.2.0)
 Many websites have both Google Tag Manager and Matomo Tag Manager implemented on their source code.
 To get similar events on Google Analytics and Matomo, the two Tag Managers have to share a common ```dataLayer```.
 
